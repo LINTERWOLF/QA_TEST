@@ -1,4 +1,4 @@
-# E2E Swap Demo
+# E2E 
 
 Suite de pruebas end-to-end que automatiza el flujo completo de compra en [https://www.saucedemo.com](https://www.saucedemo.com) usando Serenity BDD + Cucumber sobre Google Chrome.
 
