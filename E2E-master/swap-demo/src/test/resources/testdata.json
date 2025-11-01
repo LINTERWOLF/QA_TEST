@@ -1,0 +1,10 @@
+{
+  "username": "standard_user",
+  "password": "secret_sauce",
+  "invalid_username": "locked_out_user",
+  "invalid_password": "wrong_password",
+  "firstname": "Andres",
+  "lastname": "Romero",
+  "postalcode": "EC 593",
+  "productsToAdd": 2
+}

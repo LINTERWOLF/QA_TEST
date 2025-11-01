@@ -1,0 +1,7 @@
+Conclusiones del ejercicio E2E
+--------------------------------
+1. La suite integra dos escenarios encadenados (@Login y @Compra) que cubren el inicio de sesion y la compra completa en SauceDemo, validando el flujo critico de punta a punta.
+2. Se habilito la descarga automatica de ChromeDriver y se fijaron versiones de referencia (Java 17.0.12, Maven 3.9.4, Serenity 3.9.0, Selenium 4.10.0, Chrome 142.0.7444.59) para garantizar reproducibilidad en cualquier entorno Windows con Chrome instalado.
+3. Se fortalecieron los steps de negocio (manejo de popups, reintentos al agregar productos, sincronizacion con badges del carrito) y se agregaron hooks que limpian dialogos emergentes antes y despues de cada paso para reducir falsos negativos.
+4. A pesar de los esfuerzos automatizados, Google Chrome puede volver a mostrar el popup de seguridad "Cambiar la contrasena" cuando detecta credenciales publicas. Si el aviso aparece durante la ejecucion, se debe cerrar manualmente presionando el boton de cerrar o "Entendido" para que la prueba continúe; esta es la unica intervencion humana esperada.
+5. La documentacion se actualizo (README) con instrucciones paso a paso, pre-requisitos y formas de ejecucion selectiva por tags, facilitando que otros evaluadores repliquen los resultados sin ambiguedades.

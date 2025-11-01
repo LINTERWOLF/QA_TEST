@@ -1,0 +1,7 @@
+Conclusiones de la suite Karate Petstore
+----------------------------------------
+1. Los escenarios de usuario (crear, consultar, actualizar, eliminar y reconfirmar la baja) se ejecutan satisfactoriamente contra la API publica de Petstore.
+2. Cada ejecucion genera credenciales unicas (username y userId), evitando colisiones con datos residuales de corridas anteriores.
+3. El reporte HTML consolidado se encuentra en target/karate-reports/karate-summary.html, con detalle paso a paso en TestUser.html.
+4. La suite requiere un entorno minimo: Java 17 y Maven instalados; no depende de archivos externos como data.json.
+5. El script user-data.js alimenta al Background del feature con un username basado en UUID y un userId aleatorio, compartidos por todos los escenarios.
